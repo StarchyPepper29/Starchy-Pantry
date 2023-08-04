@@ -1,0 +1,16 @@
+/*
+    Class names:
+    recipe-item : the div of the entire block
+    nameclass
+    imageclass
+    expandbutton
+    regionclass
+    ingredientsclass
+    hidden : class containting the css for the hidden elements
+    instructionsclass
+*/
+
+.expandclass
+{
+    display: block;
+}

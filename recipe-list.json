@@ -1,0 +1,272 @@
+
+[
+      {
+        "id": "1",
+        "name": "Shakshuka",
+        "region": "Middle Eastern",
+        "ingredientList": [
+          "Eggs",
+          "Tomatoes",
+          "Bell peppers",
+          "Onions",
+          "Garlic",
+          "Olive oil",
+          "Spices (cumin, paprika, etc.)"
+        ],
+        "description": "Shakshuka is a delicious Middle Eastern dish made with poached eggs in a flavorful tomato and pepper sauce.",
+        "image": "shakshuka.jpg",
+        "shortInstructions": "1. Saute onions and bell peppers. 2. Add tomatoes and spices. 3. Make wells and crack eggs into them. 4. Cook until eggs are set."
+      },
+      {
+        "id": "2",
+        "name": "Italian Tomato Sauce",
+        "region": "Italian",
+        "ingredientList": [
+          "Tomatoes",
+          "Garlic",
+          "Onions",
+          "Olive oil",
+          "Basil",
+          "Oregano",
+          "Salt",
+          "Sugar"
+        ],
+        "description": "A classic Italian tomato sauce, perfect for pasta dishes and pizza.",
+        "image": "italian_tomato_sauce.jpg",
+        "shortInstructions": "1. Saute garlic and onions. 2. Add tomatoes, basil, oregano, salt, and sugar. 3. Simmer until thickened."
+      },
+      {
+        "id": "3",
+        "name": "Chicken Biryani",
+        "region": "Indian",
+        "ingredientList": [
+          "2 cups Basmati rice",
+          "500g chicken, cut into pieces",
+          "1 large onion, finely sliced",
+          "2 tomatoes, chopped",
+          "1/2 cup plain yogurt",
+          "2 tablespoons biryani masala",
+          "1 teaspoon turmeric powder",
+          "1 teaspoon red chili powder",
+          "1 tablespoon ginger-garlic paste",
+          "1/4 cup mint leaves, chopped",
+          "1/4 cup cilantro leaves, chopped",
+          "4 cups water",
+          "4 tablespoons ghee or clarified butter",
+          "Salt to taste"
+        ],
+        "description": "Chicken Biryani is a popular Indian rice dish made with flavorful spices and tender chicken.",
+        "image": "path/to/biryani.jpg",
+        "shortInstructions": "1. Marinate chicken with yogurt and spices. 2. Cook rice with spices. 3. Layer chicken and rice. 4. Cook on low heat until done."
+      },
+      {
+        "id": "4",
+        "name": "Tonkatsu",
+        "region": "Japanese",
+        "ingredientList": [
+          "4 boneless pork chops",
+          "1 cup all-purpose flour",
+          "2 large eggs, beaten",
+          "2 cups panko bread crumbs",
+          "1/4 cup vegetable oil",
+          "1/4 cup Tonkatsu sauce",
+          "Cabbage leaves, for serving"
+        ],
+        "description": "Tonkatsu is a popular Japanese dish made with breaded and deep-fried pork cutlets.",
+        "image": "path/to/tonkatsu.jpg",
+        "shortInstructions": "1. Season pork chops. 2. Coat with flour, dip in beaten eggs, and coat with panko. 3. Fry until golden brown. 4. Serve with Tonkatsu sauce and cabbage."
+      },
+      {
+        "id": "5",
+        "name": "Fried Rice",
+        "region": "Chinese",
+        "ingredientList": [
+          "2 cups cooked white rice, cooled",
+          "1 cup cooked chicken or shrimp, chopped",
+          "1/2 cup frozen peas and carrots",
+          "2 eggs, beaten",
+          "3 tablespoons soy sauce",
+          "1 tablespoon oyster sauce",
+          "1 tablespoon vegetable oil",
+          "1/4 cup green onions, chopped",
+          "1 clove garlic, minced",
+          "Salt and pepper to taste"
+        ],
+        "description": "Fried Rice is a popular Chinese dish made with stir-fried rice, vegetables, and meat or shrimp.",
+        "image": "path/to/fried_rice.jpg",
+        "shortInstructions": "1. Heat oil in a pan and scramble eggs. 2. Add garlic, peas, and carrots. 3. Stir in cooked rice and chicken/shrimp. 4. Season with soy sauce and oyster sauce. 5. Garnish with green onions."
+      },
+      {
+        "id": "6",
+        "name": "Gnocchi",
+        "region": "Italian",
+        "ingredientList": [
+          "2 cups potato gnocchi",
+          "1/4 cup unsalted butter",
+          "2 tablespoons fresh sage leaves",
+          "1/4 cup grated Parmesan cheese",
+          "Salt and pepper to taste"
+        ],
+        "description": "Gnocchi is a classic Italian pasta made with potato dumplings served with a butter and sage sauce.",
+        "image": "path/to/gnocchi.jpg",
+        "shortInstructions": "1. Cook gnocchi in boiling water until they float. 2. In a separate pan, melt butter and add sage leaves. 3. Toss cooked gnocchi in the butter sauce. 4. Serve with grated Parmesan and season with salt and pepper."
+      },
+      {
+        "id": "7",
+        "name": "Aalu ka Bharta",
+        "region": "Indian",
+        "ingredientList": [
+          "4 large potatoes, boiled and mashed",
+          "1 onion, finely chopped",
+          "2 green chilies, finely chopped",
+          "1/4 cup fresh coriander leaves, chopped",
+          "1/2 teaspoon cumin seeds",
+          "1/2 teaspoon turmeric powder",
+          "1/2 teaspoon red chili powder",
+          "1/2 teaspoon garam masala",
+          "2 tablespoons vegetable oil",
+          "Salt to taste"
+        ],
+        "description": "Aalu ka Bharta is a delicious Indian side dish made with mashed potatoes and aromatic spices.",
+        "image": "path/to/aalu_ka_bharta.jpg",
+        "shortInstructions": "1. Heat oil in a pan and add cumin seeds. 2. Add chopped onions and green chilies. 3. Stir in mashed potatoes and spices. 4. Cook until the flavors meld. 5. Garnish with fresh coriander leaves."
+      },
+      {
+        "id": "8",
+        "name": "Chicken Tikka Masala",
+        "region": "Indian",
+        "ingredientList": [
+          "1 lb boneless chicken, cut into pieces",
+          "1/2 cup plain yogurt",
+          "1/4 cup tomato puree",
+          "1/4 cup heavy cream",
+          "2 tablespoons ghee",
+          "1 tablespoon ginger-garlic paste",
+          "1 tablespoon garam masala",
+          "1 teaspoon cumin powder",
+          "1 teaspoon coriander powder",
+          "1/2 teaspoon turmeric powder",
+          "1/2 teaspoon red chili powder",
+          "1/4 teaspoon cinnamon powder",
+          "Salt to taste",
+          "Fresh coriander leaves for garnish"
+        ],
+        "description": "Chicken Tikka Masala is a popular Indian curry dish made with marinated chicken cooked in a rich tomato-based sauce.",
+        "image": "path/to/chicken_tikka_masala.jpg",
+        "shortInstructions": "1. Marinate chicken in yogurt and spices for at least 1 hour. 2. Grill or bake the marinated chicken until cooked. 3. In a separate pan, heat ghee and sauté ginger-garlic paste. 4. Add tomato puree and spices. 5. Stir in heavy cream and cooked chicken. 6. Garnish with fresh coriander leaves."
+      },
+      {
+        "id": "9",
+        "name": "White Sauce Macaroni",
+        "region": "Italian",
+        "ingredientList": [
+          "2 cups elbow macaroni",
+          "2 cups milk",
+          "1/4 cup unsalted butter",
+          "2 tablespoons all-purpose flour",
+          "1 cup shredded cheddar cheese",
+          "1/4 teaspoon garlic powder",
+          "1/4 teaspoon onion powder",
+          "Salt and black pepper to taste",
+          "Fresh parsley for garnish"
+        ],
+        "description": "White Sauce Macaroni is a creamy and cheesy pasta dish made with a rich white sauce.",
+        "image": "path/to/white_sauce_macaroni.jpg",
+        "shortInstructions": "1. Cook macaroni according to package instructions. 2. In a separate pan, melt butter and stir in flour to make a roux. 3. Gradually whisk in milk and let it thicken. 4. Add shredded cheese and seasonings. 5. Toss cooked macaroni in the white sauce. 6. Garnish with fresh parsley."
+      },
+      {
+        "id": "10",
+        "name": "Chicken Teriyaki",
+        "region": "Japanese",
+        "ingredientList": [
+          "1 lb boneless chicken thighs, cut into pieces",
+          "1/4 cup soy sauce",
+          "2 tablespoons mirin",
+          "2 tablespoons sake",
+          "2 tablespoons brown sugar",
+          "1 tablespoon vegetable oil",
+          "1 tablespoon grated ginger",
+          "2 cloves garlic, minced",
+          "1 tablespoon cornstarch",
+          "1/4 cup water",
+          "Sesame seeds and chopped green onions for garnish"
+        ],
+        "description": "Chicken Teriyaki is a popular Japanese dish made with tender pieces of chicken glazed in a sweet and savory teriyaki sauce.",
+        "image": "path/to/chicken_teriyaki.jpg",
+        "shortInstructions": "1. In a bowl, combine soy sauce, mirin, sake, brown sugar, ginger, and garlic. 2. Marinate chicken in the sauce for at least 30 minutes. 3. In a pan, heat vegetable oil and cook marinated chicken until browned. 4. In a separate bowl, mix cornstarch and water to make a slurry. 5. Pour the slurry into the pan to thicken the sauce. 6. Garnish with sesame seeds and chopped green onions."
+      },
+      {
+        "id": "11",
+        "name": "Peanut Noodles",
+        "region": "Asian",
+        "ingredientList": [
+          "8 oz spaghetti noodles",
+          "1/4 cup creamy peanut butter",
+          "3 tablespoons soy sauce",
+          "2 tablespoons rice vinegar",
+          "1 tablespoon sesame oil",
+          "1 tablespoon honey",
+          "1 clove garlic, minced",
+          "1 teaspoon grated ginger",
+          "1/4 teaspoon red pepper flakes",
+          "1/4 cup chopped green onions",
+          "1/4 cup chopped peanuts",
+          "Fresh cilantro for garnish"
+        ],
+        "description": "Peanut Noodles is a flavorful and creamy Asian dish made with peanut butter sauce.",
+        "image": "path/to/peanut_noodles.jpg",
+        "shortInstructions": "1. Cook spaghetti noodles according to package instructions. 2. In a bowl, whisk together peanut butter, soy sauce, rice vinegar, sesame oil, honey, garlic, ginger, and red pepper flakes. 3. Toss cooked noodles in the peanut sauce. 4. Garnish with chopped green onions, chopped peanuts, and fresh cilantro."
+      },
+      {
+        "id": "12",
+        "name": "Doughnuts",
+        "region": "Global",
+        "ingredientList": [
+          "2 cups all-purpose flour",
+          "1/4 cup granulated sugar",
+          "1 tablespoon baking powder",
+          "1/2 teaspoon salt",
+          "3/4 cup milk",
+          "2 tablespoons unsalted butter, melted",
+          "1 large egg",
+          "1 teaspoon vanilla extract",
+          "Oil for frying",
+          "Powdered sugar for coating"
+        ],
+        "description": "Doughnuts are a classic and delicious sweet treat loved worldwide.",
+        "image": "path/to/doughnuts.jpg",
+        "shortInstructions": "1. In a bowl, whisk together flour, sugar, baking powder, and salt. 2. In a separate bowl, mix milk, melted butter, egg, and vanilla extract. 3. Combine wet and dry ingredients to form a dough. 4. Roll out the dough and cut into doughnut shapes. 5. Heat oil in a pan and fry the doughnuts until golden brown. 6. Coat with powdered sugar."
+      },
+      {
+        "id": "13",
+        "name": "Chicken Wontons",
+        "region": "Chinese",
+        "ingredientList": [
+          "1 cup ground chicken",
+          "2 tablespoons soy sauce",
+          "1 tablespoon oyster sauce",
+          "1 tablespoon sesame oil",
+          "1 teaspoon grated ginger",
+          "1 clove garlic, minced",
+          "1 green onion, finely chopped",
+          "Wonton wrappers",
+          "Water for sealing",
+          "Oil for frying"
+        ],
+        "description": "Chicken Wontons are delicious Chinese dumplings filled with flavorful ground chicken.",
+        "image": "path/to/chicken_wontons.jpg",
+        "shortInstructions": "1. In a bowl, mix ground chicken, soy sauce, oyster sauce, sesame oil, ginger, garlic, and green onion. 2. Place a spoonful of filling onto a wonton wrapper. 3. Moisten the edges with water and fold into a triangle or desired shape. 4. Seal the wontons tightly. 5. Heat oil in a pan and fry the wontons until golden and crispy."
+      }
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    ]
+  
+  
