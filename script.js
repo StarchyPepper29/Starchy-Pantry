@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
           
             
           const recipeRegion = document.createElement("p");
-          recipeRegion.textContent = "Region: " + recipe.Region;
+          recipeRegion.textContent = "Region: " + recipe.region;
           recipeRegion.classList.add("regionclass");
           recipeRegion.classList.add("hidden");
   
@@ -65,12 +65,18 @@ document.addEventListener("DOMContentLoaded", () => {
           linkwrapper.appendChild(recipeImage);
           linkwrapper.appendChild(recipeName);
           recipeItem.appendChild(Expand);
-          recipeItem.appendChild(recipeRegion);
+            Expand.addEventListener("click", () => {
+            console.log("Hello");
+             recipeItem.appendChild(recipeRegion);
+             recipeItem.appendChild(recipeShortInstructions);
+    });
+          
+         
           
           
           recipeList.appendChild(linkwrapper);
           recipeList.appendChild(recipeItem);
-          recipeList.appendChild(recipeShortInstructions);
+          
           
         });
       })
