@@ -64,9 +64,24 @@ document.addEventListener("DOMContentLoaded", () => {
           
           linkwrapper.appendChild(recipeImage);
           linkwrapper.appendChild(recipeName);
+
+          let expand=false;
+
           recipeItem.appendChild(Expand);
             Expand.addEventListener("click", () => {
             console.log("Hello");
+            if(expand==false){
+                Expand.textContent = "Collapse";
+                expand=true;
+            }
+            else{
+                Expand.textContent = "Expand";
+                expand=false;
+            }
+            recipeRegion.classList.toggle("hidden");
+            recipeIngredients.classList.toggle("hidden");
+            recipeShortInstructions.classList.toggle("hidden");
+
              recipeItem.appendChild(recipeRegion);
              recipeItem.appendChild(recipeShortInstructions);
     });
