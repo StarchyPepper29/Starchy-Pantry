@@ -18,7 +18,8 @@ document.addEventListener("DOMContentLoaded", () => {
           const recipeItem = document.createElement("div");
           
           recipeItem.classList.add("recipe-item");
-
+          const recipeingdiv= document.createElement("div");  
+          recipeingdiv.classList.add("hidden");
           const linkwrapper = document.createElement("a");
           linkwrapper.href = "single.html?id=" + recipe.id;
           const recipeName = document.createElement("h2");
@@ -77,13 +78,24 @@ document.addEventListener("DOMContentLoaded", () => {
             else{
                 Expand.textContent = "Expand";
                 expand=false;
+                recipeingdiv.innerHTML="";
             }
-            recipeRegion.classList.toggle("hidden");
-            recipeIngredients.classList.toggle("hidden");
-            recipeShortInstructions.classList.toggle("hidden");
-
+            
+            
+            
              recipeItem.appendChild(recipeRegion);
-             recipeItem.appendChild(recipeShortInstructions);
+             recipe.ingredientList.forEach((ingredient) => {
+                const ingredientItem = document.createElement("li");
+                ingredientItem.textContent = ingredient;
+                recipeingdiv.appendChild(ingredientItem);
+                
+              });
+            
+            recipeItem.appendChild(recipeingdiv);
+            
+            recipeingdiv.classList.toggle("hidden");
+            recipeRegion.classList.toggle("hidden");
+            
     });
           
          
@@ -91,6 +103,7 @@ document.addEventListener("DOMContentLoaded", () => {
           
           recipeList.appendChild(linkwrapper);
           recipeList.appendChild(recipeItem);
+          
           
           
         });
