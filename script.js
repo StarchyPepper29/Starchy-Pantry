@@ -74,6 +74,7 @@ document.addEventListener("DOMContentLoaded", () => {
             if(expand==false){
                 Expand.textContent = "Collapse";
                 expand=true;
+                recipeingdiv.innerHTML="";
             }
             else{
                 Expand.textContent = "Expand";
