@@ -9,11 +9,33 @@
     hidden : class containting the css for the hidden elements
     instructionsclass
 */
-
-.expandclass
+.mainbanner
 {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #f2f2f2;
+    height: 100px;
+    
+    margin-bottom: 20px;
+    border: 10px solid #fdef27;
+    border-radius: 30px;
+    
+    padding: 30px;
 }
+
+h1
+{
+    flex : 1;
+    text-align: center;
+    font-family: 'Trebuchet MS';
+}
+.logoclass
+{
+    width: 100px;
+}
+  
 .hidden
 {
     display: none;

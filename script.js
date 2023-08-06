@@ -21,6 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
           const recipeingdiv= document.createElement("div");  
           recipeingdiv.classList.add("hidden");
           const linkwrapper = document.createElement("a");
+          linkwrapper.classList.add("recipe-item");
           linkwrapper.href = "single.html?id=" + recipe.id;
           const recipeName = document.createElement("h2");
           recipeName.textContent = recipe.name;
