@@ -9,6 +9,7 @@
     hidden : class containting the css for the hidden elements
     instructionsclass
 */
+
 .mainbanner
 {
     display: flex;
@@ -35,8 +36,33 @@ h1
 {
     width: 100px;
 }
-  
+    
 .hidden
 {
     display: none;
+}
+.imageclass
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.expandbutton
+{
+    width: 100px;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.nameclass
+{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.recipe-item:visited{
+    text-decoration: none;
+    color: black;
 }

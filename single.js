@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
             });
       
             document.getElementById("recipeDescription").textContent = recipe.description;
-            document.getElementById("recipeImage").src = recipe.image;
+            document.getElementById("recipeImage").src = "./media/recipeimage.png";
             document.getElementById("recipeImage").alt = recipe.name;
             document.getElementById("recipeShortInstructions").textContent = recipe.shortInstructions;
           })

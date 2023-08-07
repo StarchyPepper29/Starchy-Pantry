@@ -44,7 +44,8 @@ document.addEventListener("DOMContentLoaded", () => {
           recipeDescription.classList.add("descriptionclass");
   
           const recipeImage = document.createElement("img");
-          recipeImage.src = recipe.Image;
+          // recipeImage.src = recipe.Image;
+          recipeImage.src = "./media/recipeimage.png";
           recipeImage.alt = recipe.Name;
             recipeImage.classList.add("imageclass");
 
